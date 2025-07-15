@@ -28,7 +28,7 @@ except ImportError as e:
              self.results_received = defaultdict(list)
              self.tasks_sent = {}
              self.info = type('obj', (object,), {'uid': 'fake_validator_uid'})()
-        def _create_task_data(self, miner_uid: str) -> Any: return None
+        def create_task_data(self, miner_uid: str) -> Any: return None
         # Xóa score_miner_results giả lập
     class TaskAssignment: 
         def __init__(self, task_id, miner_uid, task_data):
@@ -93,7 +93,7 @@ class Subnet1Validator(ValidatorNode):
         # self.clip_scorer = self._load_clip_scorer()
 
     # --- 1. Override phương thức tạo Task Data ---
-    def _create_task_data(self, miner_uid: str) -> Any:
+    def create_task_data(self, miner_uid: str) -> Any:
         """
         Tạo dữ liệu task (prompt) để gửi cho miner.
         *** Đã cập nhật để thêm validator_endpoint ***

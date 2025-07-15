@@ -1,0 +1,12 @@
+{
+  "validator_uid": "validator_2",
+  "slot": 3110,
+  "phase": "consensus_scoring",
+  "timestamp": 1752573610.8025658,
+  "extra_data": {
+    "scores": {
+      "miner_1": 0.1,
+      "miner_2": 0.1
+    }
+  }
+}
