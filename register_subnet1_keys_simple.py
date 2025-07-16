@@ -32,7 +32,7 @@ KEYS_INFO = {
     },
     "miner_1": {
         "private_key": "0x90702114101ecca796263b0a1a884b2c83de73740c12359bc978e1e6f09ab438",
-        "address": "0xdbcbf08e0720fc7ed4c8318c0e2cbbde1cc77ba33f06d5c08b7533c4240ca7cf",
+        "address": "0x9ba2d796ed64ea00a4f7690be844174820e0729de9f37fcaae429bc15ac37c04",
         "api_endpoint": "http://localhost:8100"
     },
     "miner_2": {
